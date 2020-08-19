@@ -20,3 +20,10 @@
 - df = pd.read_csv('/Users/wang_danni/Desktop/Data_analysis/Project1/titanic/train.csv', names=['乘客ID','是否幸存','仓位等级','姓名','性别','年龄','兄弟姐 妹个数','父母子女个数','船票信息','票价','客舱','登船港口'],index_col='乘客ID',header=0) 
 df.head()
 - ![image](https://github.com/gluorokana/Dataanalysis/blob/master/Tableread.png)
+
+## 查看表格的信息
+- dt.info()
+![image](https://github.com/gluorokana/Dataanalysis/blob/master/Tableinfo.png)
+- head 与 tail函数可以直接观察出首尾数据
+## 如何保存数据
+- df.to_csv('train_chinese.csv')
